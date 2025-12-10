@@ -48,3 +48,56 @@ Your console should display:
 - [ ] Output is clearly formatted
 
 ---
+
+
+## Assignment 2: Decision Making (10 minutes)
+
+### Objective
+Practice using conditional statements to make decisions in your code.
+
+### Instructions
+1. Add this code to your existing JavaScript file:
+
+```javascript
+// 1. Create a function that determines if a number is positive, negative, or zero
+function checkNumber(number) {
+    // Your code here
+}
+
+// 2. Create a function that determines the season based on month
+function getSeason(month) {
+    // Your code here
+}
+
+// 3. Create a function that calculates discount based on age
+function calculateDiscount(age, price) {
+    // Your code here
+}
+
+// 4. Test all functions
+console.log("=== Decision Making Practice ===");
+console.log("Number check:", checkNumber(5)); // Should be "Positive"
+console.log("Number check:", checkNumber(-3)); // Should be "Negative"
+console.log("Number check:", checkNumber(0)); // Should be "Zero"
+
+console.log("Season check:", getSeason(6)); // Should be "Summer"
+console.log("Season check:", getSeason(12)); // Should be "Winter"
+
+console.log("Discount for 16-year-old, $100:", calculateDiscount(16, 100)); // Should be 10
+console.log("Discount for 70-year-old, $100:", calculateDiscount(70, 100)); // Should be 20
+console.log("Discount for 30-year-old, $100:", calculateDiscount(30, 100)); // Should be 0
+```
+
+### Expected Output
+Your console should display:
+- Number classification results
+- Season determination results
+- Discount calculation results
+
+### Success Criteria
+- [ ] Number classification works for all cases
+- [ ] Season determination works for all months
+- [ ] Discount calculation works for all age groups
+- [ ] All output matches expected results
+
+---
